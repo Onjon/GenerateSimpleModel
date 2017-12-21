@@ -23,8 +23,8 @@ function generateSpace( $cn ) {
 }
 
 // Set Connection Start 
-$conn = mysql_connect( "localhost" , "root" , "natasha143#" ) or die( "Connection Fail" ) ;
-mysql_select_db( "btrc_project" , $conn ) or DIE( "Database connection fail." ) ;
+$conn = mysql_connect( "{HOST_NAME}" , "{USERNAME}" , "{PASSWORD}" ) or die( "Connection Fail" ) ;
+mysql_select_db( "{DB_NAME}" , $conn ) or DIE( "Database connection fail." ) ;
 // Set Connection End 
 
 
